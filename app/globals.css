@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #09090b;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-heading: 'CircularStd-Black', sans-serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'CircularStd-Black';
+    src: url('/assets/fonts/CircularStd-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-size: 15px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
