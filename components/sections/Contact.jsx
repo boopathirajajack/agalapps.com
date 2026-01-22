@@ -54,9 +54,9 @@ export default function Contact() {
                 <IoCallOutline size={24} />
               </div>
               <div>
-                <h3 className="text-zinc-900 font-semibold mb-1">Call Support</h3>
+                <h3 className="text-zinc-900 font-semibold mb-1">Call Us</h3>
                 <p className="text-zinc-600 ">
-                  +91 63800 73200
+                  +91 97886 35392
                 </p>
               </div>
             </div>
