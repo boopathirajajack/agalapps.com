@@ -20,6 +20,9 @@ const lexend = Lexend_Deca({
 export const metadata = {
   title: "Agal Apps | 1 Million Dollar Startup",
   description: "IT Services, Mobile App Development, Web Applications",
+  verification: {
+    google: "k7UGxdNpudlod__PoVwWbG5viB_Fdni0pCf3l93fp8g",
+  },
 };
 
 export default function RootLayout({ children }) {
