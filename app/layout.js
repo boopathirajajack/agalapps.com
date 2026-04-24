@@ -10,7 +10,6 @@ const inter = Inter({
   display: "swap",
 });
 
-// Heading font (Lexend Deca)
 const lexend = Lexend_Deca({
   subsets: ["latin"],
   variable: "--font-lexend",
@@ -18,8 +17,8 @@ const lexend = Lexend_Deca({
 });
 
 export const metadata = {
-  title: "Agal Apps | 1 Million Dollar Startup",
-  description: "IT Services, Mobile App Development, Web Applications",
+  title: "Agal Apps | Mobile App Development, Web Applications, Best Mobile App Development Company in Coimbatore, Tamil Nadu, India",
+  description: "Agal Apps is a leading mobile app development and IT services company based in Coimbatore, Tamil Nadu, India. We specialize in creating high-quality mobile apps, web applications, and enterprise solutions for businesses across various industries.",
   verification: {
     google: "k7UGxdNpudlod__PoVwWbG5viB_Fdni0pCf3l93fp8g",
   },
